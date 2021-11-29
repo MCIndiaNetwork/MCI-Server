@@ -5,14 +5,6 @@ title: "[BUG]"
 labels: bug
 assignees: ''
 
----
-
-# The format of Bug Report
-
-| name | about | title |  labels | assignees | 
-|--|--|--|--|--|
-| Bug report | Create a report to help us improve | title about the bug | "[BUG]" |  | 
-
 
 ---
 
