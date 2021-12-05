@@ -7,7 +7,7 @@ body:
   attributes:
     value: |
       ## 👋 Welcome to MCI bug tracker
-      If you found any sort of bug, or any thing that might break the game, feel free to create a bug report. If you need more urgent help, check our (Discord)[https://discord.gg/ShcuJyzJzj]
+      If you found any sort of bug, or any thing that might break the game, feel free to create a bug report. If you need more urgent help, check our [Discord](https://discord.gg/ShcuJyzJzj)
       <br /><strong><i>Fields marked with an asterisk (*) are required.</i></strong>
       <br />
 
@@ -129,5 +129,5 @@ body:
     value: |
       ## ❤️ Thank you for submitting your bug report and helping us to give players a better game experience!
       If you have any additional info feel free to comment in the issue, the more you co-operate the more better
-      If you want to have a chat with other player, Join our Discord Server(https://discord.gg/ShcuJyzJzj).
+      If you want to have a chat with other player, Join our [Discord Server](https://discord.gg/ShcuJyzJzj).
 
