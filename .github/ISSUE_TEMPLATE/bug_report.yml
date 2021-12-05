@@ -13,18 +13,20 @@ body:
 
 - id: checklist
   type: checkboxes
+  validations:
+    required: true
   attributes:
     label: '✅ Checklist'
     description: Please tick the proper server, where you found the bug.
     options:
     - label: Survival
-      required: true
+      required: false
     - label: Oneblock
-      required: true
+      required: false
     - label: Skyblock
-      required: true
+      required: false
     - label: Minigames
-      required: true
+      required: false
 
 - id: description
   type: textarea
