@@ -1,0 +1,134 @@
+name: Bug Report
+description: Found a bug?, Feel free to report it here
+labels: ['Bug']
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## 👋 Welcome to MCI bug tracker
+      If you found any sort of bug, or any thing that might break the game, feel free to create a bug report. If you need more urgent help, check our [Discord](https://discord.gg/ShcuJyzJzj)
+      <br /><strong><i>Fields marked with an asterisk (*) are required.</i></strong>
+      <br />
+
+- id: checklist
+  type: checkboxes
+  attributes:
+    label: '✅ Checklist'
+    description: Please tick the proper server, where you found the bug.
+    options:
+    - label: Survival
+      required: true
+    - label: Oneblock
+      required: true
+    - label: Skyblock
+      required: true
+    - label: Minigames
+      required: true
+
+- id: description
+  type: textarea
+  validations:
+    required: true
+  attributes:
+    label: '📋 Description'
+    description: |
+      Please describe what you found and noticed about the bug
+    placeholder: |
+      Describe here.
+
+- id: reproduction-steps
+  type: textarea
+  validations:
+    required: false
+  attributes:
+    label: '📑 Reproduction Steps (Optional)'
+    description: |
+       If you know the proper way of reproduce it, describe that here.
+    placeholder: |
+      1. Do [...]
+      2. Then do [...]
+      3. Now [...] happens
+
+- id: expected-behaviour
+  type: textarea
+  validations:
+    required: true
+  attributes:
+    label: '💡 Expected Behavior'
+    description: |
+      What were you expecting to happen?
+      What do you think would have been the correct behaviour?
+    placeholder: |
+      I expected [...] to happen.
+
+- id: media
+  type: textarea
+  attributes:
+    label: '📷 Screenshots / Videos'
+    description: |
+      Send the videos/screenshots
+    placeholder: |
+      Drag and drop an image or video onto this field to upload it.
+
+- id: minecraft-version
+  type: dropdown
+  validations:
+    required: true
+  attributes:
+    label: '🎮 Minecraft Version'
+    description: 'Please select the Minecraft client version'
+    options:
+      - 1.17.x
+      - 1.16.x
+      - 1.15.x
+      - 1.14.x
+      - 1.13.x
+      - 1.12.x
+      - 1.8.9 
+
+- id: minecraft-client-mod
+  type: dropdown
+  validations:
+    required: true
+  attributes:
+    label: '🎮 Minecraft Client Mod'
+    description: 'Please select the Minecraft client Mod (Vanilla/Optifine/Fabric/Forge/ForgeOptifine)'
+    options:
+      - Vanilla
+      - Optifine
+      - Fabric
+      - Forge
+      - Forge Optifine    
+
+- id: operating-system
+  type: dropdown
+  validations:
+    required: true
+  attributes:
+    label: '🎮 Operating system '
+    description: 'Operating system that you are using (Windows/Linux/Android/Mac)'
+    options:
+      - Windows
+      - Linux
+      - Android
+      - Mac
+
+- id: extra-mods
+  type: textarea
+  validations:
+    required: false
+  attributes:
+    label: '💡 Extra Client Mods (Optional)'
+    description: |
+       If you have any extra mods in your client, feel free to list them.
+    placeholder: |
+      I expected [...] to happen.
+
+- type: markdown
+  attributes:
+    value: |
+      ## ❤️ Thank you for submitting your bug report and helping us to give players a better game experience!
+      If you have any additional info feel free to comment in the issue, the more you co-operate the more better
+      If you want to have a chat with other player, Join our [Discord Server](https://discord.gg/ShcuJyzJzj).
+
