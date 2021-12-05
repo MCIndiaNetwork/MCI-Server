@@ -107,7 +107,7 @@ body:
     required: true
   attributes:
     label: '🎮 Operating system '
-    description: 'Operating system that you are using (Windows/Linux/Mac)'
+    description: 'Operating system that you are using (Windows/Linux/Android/Mac)'
     options:
       - Windows
       - Linux
