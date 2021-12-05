@@ -111,6 +111,7 @@ body:
     options:
       - Windows
       - Linux
+      - Android
       - Mac
 
 - id: extra-mods
