@@ -1,5 +1,9 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Website
+    url: https://mcindia.net/
+    about: Website for donation perks and other stuffs
   - name: Discord
     url: https://discord.gg/ShcuJyzJzj
-    about: Chat
+    about: Have a chat
+    
