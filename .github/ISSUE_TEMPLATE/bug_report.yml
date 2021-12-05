@@ -14,16 +14,16 @@ body:
 - id: checklist
   type: checkboxes
   attributes:
-    label: '❗ Checklist'
-    description: Please go through this checklist before creating the issue.
+    label: '✅ Checklist'
+    description: Please tick the proper server, where you found the bug.
     options:
-    - label: I am using the official english version of Slimefun and did not modify the jar.
+    - label: Survival
       required: true
-    - label: I am using an up to date "DEV" (not "RC") version of Slimefun.
+    - label: Oneblock
       required: true
-    - label: I am aware that issues related to Slimefun addons need to be reported on their bug trackers and not here.
+    - label: Skyblock
       required: true
-    - label: I searched for similar open issues and could not find an existing bug report on this.
+    - label: Minigames
       required: true
 
 - id: description
@@ -31,21 +31,20 @@ body:
   validations:
     required: true
   attributes:
-    label: '📍 Description'
+    label: '📋 Description'
     description: |
-      A clear and detailed description of what went wrong.
-      The more information you can provide, the easier we can handle this problem.
+      Please describe what you found and noticed about the bug
     placeholder: |
-      When doing [...] I experienced [...], I am pretty sure this is not intended and should be fixed.
+      Describe here.
 
 - id: reproduction-steps
   type: textarea
   validations:
-    required: true
+    required: false
   attributes:
-    label: '📑 Reproduction Steps'
+    label: '📑 Reproduction Steps (Optional)'
     description: |
-      Tell us the exact steps to reproduce this issue, the more detailed the easier we can reproduce it.
+       If you know the proper way of reproduce it, describe that here.
     placeholder: |
       1. Do [...]
       2. Then do [...]
@@ -68,43 +67,9 @@ body:
   attributes:
     label: '📷 Screenshots / Videos'
     description: |
-      The best way to illustrate in an issue is by recording a Video or taking a Screenshot.
-      If you can capture any footage of the bug happening, it would help us out a lot!
+      Send the videos/screenshots
     placeholder: |
       Drag and drop an image or video onto this field to upload it.
-
-- id: server-log
-  type: input
-  attributes:
-    label: '📜 Server Log'
-    description: |
-      Take a look at your Server Log and upload any error messages from Slimefun to a pasting site (e.g. https://pastebin.com/).
-      If you are unsure about it, post your full log, you can find it under /logs/latest.log
-    placeholder: https://pastebin.com/...
-
-- id: error-reports
-  type: input
-  attributes:
-    label: '📂 `/error-reports/` folder'
-    description: |
-      Check the folder `/plugins/Slimefun/error-reports/` and upload any files inside that folder to a pasting site (e.g. https://pastebin.com/).
-    placeholder: https://pastebin.com/...
-
-- id: server-software
-  type: dropdown
-  validations:
-    required: true
-  attributes:
-    label: '💻 Server Software'
-    description: 'Please select the software your Server is running on'
-    options:
-      - Spigot
-      - Paper
-      - Tuinity
-      - Yatopia
-      - Purpur
-      - Airplane
-      - Other (please specify in your description)
 
 - id: minecraft-version
   type: dropdown
@@ -112,39 +77,57 @@ body:
     required: true
   attributes:
     label: '🎮 Minecraft Version'
-    description: 'Please select the Minecraft version of the server'
+    description: 'Please select the Minecraft client version'
     options:
       - 1.17.x
       - 1.16.x
       - 1.15.x
       - 1.14.x
-      - (Older versions are not supported)
+      - 1.13.x
+      - 1.12.x
+      - 1.8.9 
 
-- id: slimefun-version
-  type: textarea
+- id: minecraft-client-mod
+  type: dropdown
   validations:
     required: true
   attributes:
-    label: '⭐ Slimefun version'
-    description: |
-      **"latest" is not a version number, we need the exact version.**
-      We recommend running "/sf versions" and uploading a screenshot of that.
-      Make sure that the screenshot covers the entire output of that command.
-    placeholder: Slimefun version [...]
+    label: '🎮 Minecraft Client Mod'
+    description: 'Please select the Minecraft client Mod (Vanilla/Optifine/Fabric/Forge/ForgeOptifine)'
+    options:
+      - Vanilla
+      - Optifine
+      - Fabric
+      - Forge
+      - Forge Optifine    
 
-- id: other-versions
-  type: textarea
+- id: operating-system
+  type: dropdown
+  validations:
+    required: true
   attributes:
-    label: '🧭 Other plugins'
+    label: '🎮 Operating system '
+    description: 'Operating system that you are using (Windows/Linux/Mac)'
+    options:
+      - Windows
+      - Linux
+      - Mac
+
+- id: extra-mods
+  type: textarea
+  validations:
+    required: false
+  attributes:
+    label: '💡 Extra Client Mods (Optional)'
     description: |
-      If your issue is related to another plugin, make sure to include this here!
-    placeholder: The issue is related to plugin [...], version [...]
+       If you have any extra mods in your client, feel free to list them.
+    placeholder: |
+      I expected [...] to happen.
 
 - type: markdown
   attributes:
     value: |
-      ## ❤️ Thank you for submitting your bug report!
-      If you find any additional info that can help to identify this problem, don't hesitate to comment on your issue!
-      Any additional info can help us fix this bug faster.
-      In the meantime, try visiting our [Discord server](https://discord.gg/slimefun).
-      Perhaps someone else has experienced a similar issue.
+      ## ❤️ Thank you for submitting your bug report and helping us to give players a better game experience!
+      If you have any additional info feel free to comment in the issue, the more you co-operate the more better
+      If you want to have a chat with other player, Join our Discord Server(https://discord.gg/ShcuJyzJzj).
+
