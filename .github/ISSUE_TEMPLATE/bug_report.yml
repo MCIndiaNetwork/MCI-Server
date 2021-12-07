@@ -126,7 +126,7 @@ body:
     description: |
        If you have any extra mods in your client, feel free to list them.
     placeholder: |
-      I expected [...] to happen.
+      I have these [...] mods.
 
 - type: markdown
   attributes:
