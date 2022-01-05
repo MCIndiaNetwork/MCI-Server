@@ -1,4 +1,4 @@
-<h2>Bug Report <img align="right" alt="Profile Hits" src="https://visitor-badge.laobi.icu/badge?page_id=elli0t43.Neovim-Config"></h2>
+<h2>Bug Report <img align="right" alt="Profile Hits" src="https://visitor-badge.laobi.icu/badge?page_id=MCIndiaNetwork.MCI-Server"></h2>
 
 
 1. Head over to [The issues page here](https://github.com/MCIndiaNetwork/MCI-Server/issues) and check if your issue exists already.
