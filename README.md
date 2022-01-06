@@ -5,5 +5,6 @@
 2. If it does not, then [click here](https://github.com/MCIndiaNetwork/MCI-Server/issues/new) or click the Green New Issue Button on the issues page.
 3. Follow the Issue template and answer everything.
 
-<h3>Thank you for submitting your bug report and helping us to give players a better game experience 🧡🤍💚</h3>
+<h3>Thank you for submitting your bug report and helping us to give players a better game experience 
+🧡🤍💚</h3>
 
