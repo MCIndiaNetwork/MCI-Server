@@ -27,6 +27,8 @@ body:
       required: false
     - label: Minigames
       required: false
+    - label: Bedwars
+      required: false
 
 - id: description
   type: textarea
