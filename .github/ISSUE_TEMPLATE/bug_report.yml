@@ -83,7 +83,8 @@ body:
     label: '🎮 Minecraft Version'
     description: 'Please select the Minecraft client version'
     options:
-      - 1.18
+      - 1.19.x
+      - 1.18.x
       - 1.17.x
       - 1.16.x
       - 1.15.x
